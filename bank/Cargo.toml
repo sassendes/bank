@@ -1,0 +1,26 @@
+[workspace]
+resolver = "2"
+members = [
+  "services/ledger",
+  "services/accounts",
+  "services/parties",
+  "services/transactions",
+  "services/payments",
+  "services/identity",
+  "services/onboarding",
+  "services/cards",
+  "services/loans",
+  "services/deposits",
+  "services/interest_fees",
+  "services/limits_controls",
+  "services/aml",
+  "services/fraud",
+  "services/reporting",
+  "services/audit",
+  "services/statements",
+  "services/notifications",
+  "services/gateway",
+  "services/admin",
+  "services/webapp",
+  "services/treasury",
+]

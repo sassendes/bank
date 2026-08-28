@@ -1,0 +1,1 @@
+// treasury — domain events
