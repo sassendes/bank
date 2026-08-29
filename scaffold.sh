@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# Bank skeleton — real filenames, no mod.rs soup. Each layer is a single named
-# .rs file per domain (e.g. ledger/src/model.rs), which Rust treats as the module.
-# When a layer grows, you split model.rs into model/account.rs etc THEN — not before.
 set -e
 
 ROOT="bank"; mkdir -p "$ROOT"; cd "$ROOT"
