@@ -7,7 +7,7 @@ pub enum LedgerError {
     AccountFrozen,
     AccountNotFound,
 }
-pub fn post(transaction: Transaction) -> Result<(), LedgerError> {
+pub async fn post(transaction: Transaction) -> Result<(), LedgerError> {
     if !transaction.is_balanced() {
         return Err(LedgerError::Unbalanced);
     }
