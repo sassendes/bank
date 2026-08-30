@@ -17,6 +17,7 @@ pub async fn post(transaction: Transaction) -> Result<(), LedgerError> {
 
     Ok(())
 }
+<<<<<<< HEAD
 pub struct LedgerService {
     repo: LedgerRepository,
 }
@@ -26,3 +27,5 @@ impl LedgerSerivce {
     }
 }
 
+=======
+>>>>>>> 08610bacdd2738865a661c621be03e5193afd327
